@@ -1,0 +1,1 @@
+FOR /L %%A IN (0,1,9) DO (FOR /L %%B IN (0,1,9) DO (FOR /L %%C IN (0,1,9) DO (FOR /L %%D IN (0,1,9) DO (FOR /L %%E IN (0,1,9) DO (FOR /L %%F IN (0,1,9) DO (MKDIR ".\MY_VAULT\%%A\%%B\%%C\%%D\%%E\%%F"))))))
